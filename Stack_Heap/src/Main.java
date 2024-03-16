@@ -12,17 +12,17 @@ public class  Main {
         //Stack is LIFO in java
         Stack<String> stos= new Stack<>();
 
-        //dodanie czegos
+        //Adding something to the stack
         stos.push("John");
 
-        //Podejrzenie czegoś co jest na gorze stosu
-        String imie=stos.peek();
+        //Checking what's on top of the stack
+        String imie = stos.peek();
 
-        //Usun z gory stosu i zwroc
+        //Deleting from the top of the stack and returning the deleted item
         String imie2 = stos.pop();
 
-        //Rozmiar stosu
-        int size=stos.size();
+        //Measuring the size of the stack
+        int size = stos.size();
 
 
         //Heap is FIFO in java
